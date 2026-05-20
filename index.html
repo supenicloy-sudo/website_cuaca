@@ -3,46 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>10 Awan Cerah dan Mendung</title>
+<title>Cuaca Langit</title>
 
 <style>
 
 body{
     margin:0;
-    padding:10px;
+    padding:20px;
     font-family:Arial, sans-serif;
     background:#d9e2ef;
 }
 
-/* BOX BESAR */
+/* JUDUL */
+.title{
+    text-align:center;
+    font-size:60px;
+    font-weight:bold;
+    color:#103c74;
+    margin-bottom:30px;
+}
+
+/* BOX */
 .section{
     background:#eef3fa;
     border:3px solid #7aa2d8;
-    border-radius:18px;
-    padding:15px;
-    margin-bottom:20px;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:30px;
 }
 
-/* JUDUL */
+/* SUB JUDUL */
 .section h1{
     text-align:center;
-    font-size:55px;
-    margin-top:0;
+    font-size:40px;
+    color:#123c74;
     margin-bottom:25px;
-    color:#103c74;
-    font-weight:bold;
 }
 
 /* GRID */
 .grid{
     display:grid;
     grid-template-columns:repeat(5,1fr);
-    gap:18px;
+    gap:20px;
 }
 
 /* CARD */
 .card{
+    background:white;
+    border-radius:18px;
+    padding:10px;
     text-align:center;
+    box-shadow:0 4px 8px rgba(0,0,0,0.15);
 }
 
 /* GAMBAR */
@@ -50,15 +61,14 @@ body{
     width:100%;
     height:170px;
     object-fit:cover;
-    border-radius:18px;
+    border-radius:15px;
     border:2px solid #c7d5ea;
 }
 
 /* TEXT */
 .card h2{
+    font-size:18px;
     margin-top:10px;
-    margin-bottom:0;
-    font-size:20px;
     color:#1d2f4f;
 }
 
@@ -69,8 +79,8 @@ body{
         grid-template-columns:repeat(2,1fr);
     }
 
-    .section h1{
-        font-size:38px;
+    .title{
+        font-size:40px;
     }
 }
 
@@ -80,16 +90,21 @@ body{
         grid-template-columns:1fr;
     }
 
-    .section h1{
+    .title{
         font-size:30px;
     }
 }
 
 </style>
 </head>
+
 <body>
 
-<!-- ===================== CERAH ===================== -->
+<div class="title">
+CUACA LANGIT
+</div>
+
+<!-- ================= CERAH ================= -->
 
 <div class="section">
 
@@ -98,116 +113,114 @@ body{
 <div class="grid">
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192315.png">
+<img src="Screenshots/1.png">
 <h2>1. Cirrus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192324.png">
+<img src="Screenshots/2.png">
 <h2>2. Cirrocumulus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192331.png">
+<img src="Screenshots/3.png">
 <h2>3. Cirrostratus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192337.png">
+<img src="Screenshots/4.png">
 <h2>4. Cumulus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192347.png">
+<img src="Screenshots/5.png">
 <h2>5. Cumulus Humilis</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192400.png">
+<img src="Screenshots/6.png">
 <h2>6. Cumulus Mediocris</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192410.png">
+<img src="Screenshots/7.png">
 <h2>7. Cumulus Congestus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192417.png">
+<img src="Screenshots/8.png">
 <h2>8. Altostratus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192433.png">
+<img src="Screenshots/9.png">
 <h2>9. Altocumulus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192439.png">
-<h2>10. Stratocumulus (cerah)</h2>
+<img src="Screenshots/10.png">
+<h2>10. Stratocumulus</h2>
 </div>
 
 </div>
 </div>
 
-<!-- ===================== MENDUNG ===================== -->
+<!-- ================= MENDUNG ================= -->
 
-<div class="section" style="background:#eceaea; border-color:#a8a8a8;">
+<div class="section" style="background:#eceaea; border-color:#9a9a9a;">
 
-<h1 style="color:#1d2f4f;">
-10 AWAN TIDAK CERAH / MENDUNG
-</h1>
+<h1>10 AWAN TIDAK CERAH / MENDUNG</h1>
 
 <div class="grid">
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192735.png">
-<h2>1. Cirrostratus (tebal)</h2>
+<img src="Screenshots/11.png">
+<h2>1. Cirrostratus Tebal</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192743.png">
-<h2>2. Altostratus (tebal)</h2>
+<img src="Screenshots/12.png">
+<h2>2. Altostratus Tebal</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192750.png">
+<img src="Screenshots/13.png">
 <h2>3. Nimbostratus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192759.png">
+<img src="Screenshots/14.png">
 <h2>4. Stratus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192808.png">
-<h2>5. Stratocumulus (mendung)</h2>
+<img src="Screenshots/15.png">
+<h2>5. Stratocumulus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192816.png">
-<h2>6. Cumulus Mediocris (mendung)</h2>
+<img src="Screenshots/16.png">
+<h2>6. Cumulus Mediocris</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192824.png">
-<h2>7. Cumulus Congestus (mendung)</h2>
+<img src="Screenshots/17.png">
+<h2>7. Cumulus Congestus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192830.png">
-<h2>8. Cumulonimbus (umum)</h2>
+<img src="Screenshots/18.png">
+<h2>8. Cumulonimbus</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192837.png">
-<h2>9. Cumulonimbus (hujan)</h2>
+<img src="Screenshots/19.png">
+<h2>9. Cumulonimbus Hujan</h2>
 </div>
 
 <div class="card">
-<img src="Screenshots\Screenshot-2026-05-20 192848.png">
-<h2>10. Cumulonimbus (tua)</h2>
+<img src="Screenshots/20.png">
+<h2>10. Cumulonimbus Tua</h2>
 </div>
 
 </div>
